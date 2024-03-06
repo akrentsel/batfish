@@ -38,7 +38,7 @@ It is important to identify which state a line should be in before parsing, so t
 Within the Batfish repository, Batfish DSL parsers are divided into several components. For the
 purpose of this section, we will assume you are writing a parser for a format called "Cool NOS"
 (Cool Network Operating System) for which there is no existing support in Batfish. We have provided
-example [files](example_src) for this parser. In later sections we will explain how to get Batfish
+example [files](../example_code/new_vendor/src/main/) for this parser. In later sections we will explain how to get Batfish
 to use this parser on files in the "Cool NOS" format.
 
 * [`CoolNosLexer.g4`](../example_code/new_vendor/src/main/antlr4/org/batfish/grammar/cool_nos/CoolNosLexer.g4)
